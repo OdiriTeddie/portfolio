@@ -1,0 +1,18 @@
+@import './variables';
+
+
+.btn {
+    display: inline-block;
+    padding: 0.8em 1.7em;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #d6d6d6;
+
+    &:hover {
+        background: rgb(43, 43, 43);
+    }
+}
