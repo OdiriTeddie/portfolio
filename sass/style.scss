@@ -80,7 +80,11 @@
 }
 
 .about__content {
-    --gap: 2rem;
+    --gap: 2.3rem;
+
+    h2 {
+        font-size: var(--fs-700);
+    }
 }
 
 .about__img {
@@ -94,9 +98,10 @@
 }
 
 .about__stacks {
+ 
 
     h3 {
-        font-size: var(--fs-700);
+        font-size: var(--fs-600);
         text-align: center;
     }
 
