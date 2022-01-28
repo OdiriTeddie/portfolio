@@ -29,7 +29,9 @@
 .nav__list {
     flex-direction: row;
     gap: 2rem;
-
+    row-gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
     
 
     .nav__list-links {
@@ -179,7 +181,8 @@
     --gap: 0.5rem;
     justify-content: center;
     align-items: center;
-    width: 22rem;
+    margin-inline: center;
+    width: 18rem;
     padding-block: 2.3rem;
     // border-radius: 5px;
     background: hsl(240, 32%, 14%);
@@ -231,6 +234,9 @@
 .contact__details-list {
     --gap: 2.2rem;
     align-items: center;
+    justify-content: center;
+    margin-inline: auto;
+   margin-left: 20px;
 }
 
 
