@@ -1,9 +1,7 @@
-// import './style.css'
+import './style.css'
+import './script.js'
 
-const header = document.querySelector('.header')
-
-function headerChange() {
-    header.classList.toggle('sticky', window.scrollY > 0)
-}
-
-window.addEventListener('scroll', headerChange)
+document.querySelector('#app').innerHTML = `
+  <h1>Hello Vite!</h1>
+  <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
+`
