@@ -11,8 +11,12 @@
 .header {
     padding-block: 1.5rem;
     // border-bottom: 0.3px solid white;
-    // display: none;
-   
+   background: hsl(var(--primary-clr-300) / 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
 }
 
 .header .container {
@@ -44,10 +48,12 @@
 ////////////////// Showcase Section
 
 .showcase {
-    background-image: url('../images/home1.jpg');
-    background-position: center center;
+    background: url('../images/home1.jpg');
+    background-position: center  ;
+    // background-size: cover;
     background-repeat: no-repeat;
-    height: calc(100vh - 100px);
+    background-attachment: fixed;
+    height: 100vh;
 
 }
 
