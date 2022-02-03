@@ -6,7 +6,7 @@
 @import './components.scss';
     
 
-///////////////////////////////// Header 
+///////////// Header 
 
 .header {
     padding-block: 1.5rem;
@@ -255,7 +255,7 @@
 }
 
 
-/////////////////////////////// Work Section
+/////////////// Work Section
 
 .work {
     background: hsl(240, 33%, 11%);
@@ -344,12 +344,12 @@
 
 
 
-///////////////////////Media Queries Section
+////////////////Media Queries Section
 
 
 @media(min-width: 50em) {
 
-/////////////////////// Header Section
+//////////////// Header Section
 
 
     .header .container {
@@ -362,7 +362,7 @@
         }
     }
 
-/////////////////////// About Section
+/////////////// About Section
     
     .about .container {
         flex-direction: row;
@@ -392,11 +392,10 @@
         }
     }
 
-/////////////////////// Contact Section
+/////////////// Contact Section
 
     .contact__content {
         flex-direction: row;
-      
 
     }
 
@@ -409,7 +408,7 @@
     }
 
 
-    /////////////////////////////////// Work Section
+    ///////////////// Work Section
 
     .work__box {
         align-items: center;
@@ -419,7 +418,6 @@
   .work__list {
       grid-template-columns: repeat(2, 1fr );
   }
-
 
     
 }
