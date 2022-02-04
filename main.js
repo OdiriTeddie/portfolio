@@ -1,5 +1,5 @@
 import './style.css'
-import './script'
+import './script.js'
 
 document.querySelector('#app').innerHTML = `
   <h1>Hello Vite!</h1>
